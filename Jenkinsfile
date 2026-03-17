@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/avinashgangal/jenkins-new.git'
+                git branch:'main',url:'https://github.com/avinashgangal/jenkins-new.git'
             }
         }
 
